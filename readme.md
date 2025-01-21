@@ -2,7 +2,7 @@
 
 Power plant model validation for renewable energy involves verifying that the simulation models accurately represent the dynamic behavior of renewable energy plants, ensuring reliable integration into the grid. New requirements (such as in WECC in the United States) mandate plant validation for smaller facilities, including wind farms, solar farms and grid-scale energy storage. The generic inverter control models that represent renewable energy equipment have hundrends of potential parameters to adjust, so automation of validation is essential.
 
-![](\Images\SingleExp_Tuning.gif)
+![](https://github.com/jonlesage/Renewable-PPMV/tree/main/Images/SingleExp_Tuning.gif)
 
 This example walks through the validation process for renewable energy systems using replay of field data. The process involves both manual and automated parameter tuning, resulting in a digital twin representation which emulates real system response.
 
@@ -22,7 +22,7 @@ To run this demo:
     - You can push the "Run" button in Simulink to see the comparison between simulation and field data. Notice the mismatch.
     - Double-click the "Parameter Estimation" button to open the UI. Clicking Start estimation with start the process with the saved parameter estimation session.
 
-![](\Images\PPMVWorkflow.png)
+![](https://github.com/jonlesage/Renewable-PPMV/tree/main/Images/PPMVWorkflow.png)
 
 ## Video Walkthrough of Example:
 For more information and a video walk-through, these examples are used in the "Renewable Energy Power Plant Model Validation" video: https://www.mathworks.com/videos/renewable-energy-power-plant-model-validation-1572378243901.html
